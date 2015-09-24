@@ -1,5 +1,3 @@
-'use strict';
-
 import React, { Component } from 'react';
 
 class ChartistGraph extends Component {
@@ -52,7 +50,10 @@ class ChartistGraph extends Component {
 
   render() {
     let className = this.props.className ? ' ' + this.props.className : ''
-    return React.DOM.div({className: 'ct-chart' + className})
+    className = "ct-chart " + className;
+    return (
+      <div className={ className }></div>
+    );
   }
 
 }

@@ -80,7 +80,8 @@ var ChartistGraph = (function (_Component) {
     key: 'render',
     value: function render() {
       var className = this.props.className ? ' ' + this.props.className : '';
-      return _react2['default'].DOM.div({ className: 'ct-chart' + className });
+      className = "ct-chart " + className;
+      return _react2['default'].createElement('div', { className: className });
     }
   }]);
 
