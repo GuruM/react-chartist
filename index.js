@@ -1,8 +1,8 @@
 'use strict';
 
-import React from 'react';
+import React, { Component } from 'react';
 
-class ChartistGraph extends React.Component {
+class ChartistGraph extends Component {
 
   displayName: 'ChartistGraph'
 
